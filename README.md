@@ -1,59 +1,54 @@
 # Corso C/C++ per Arduino Uno R4 WiFi
 
-Corso progressivo da **teoria a pratica**, focalizzato su:
-- ✅ Come pensare architetturalmente a un progetto
-- ✅ Scrivere codice modulare e riusabile
-- ✅ Applicare concetti OOP in pratica su Arduino
-- ✅ Progetti reali complessi
+Benvenuto nel corso pratico di C/C++ applicato ad **Arduino Uno R4 WiFi**.
+
+Il corso è pensato per chi ha già basi teoriche di C/C++ ma vuole imparare a **mettere in pratica** su hardware reale.  
+Ogni puntata contiene una parte teorica essenziale e uno o più **listati completi e funzionanti**.
 
 ---
 
-## 📚 Struttura del corso
+## 📚 Struttura del Corso
 
-### **Fase 1: Fondamenti Architetturali** 
-Imparare a pensare prima di codificare.
-
-- [Puntata 1: Principi di Design e Modularità](./fase_1_architettura/puntata_1/README.md)
-- Puntata 2: Separazione delle Responsabilità
-- Puntata 3: Naming e Organizzazione del Codice
-- Puntata 4: Intro a State Machines
-
-### **Fase 2: Pratica su Arduino**
-Applicare i concetti con componenti reali.
-
-- Puntata 5: Classi e Oggetti in pratica
-- Puntata 6: Gestione di Sensori Multipli
-- Puntata 7: Serial Communication Strutturata
-- Puntata 8: WiFi e Comunicazione di Rete
-
-### **Fase 3: Progetti Reali**
-Assembliare tutto in progetti completi.
-
-- Progetto 1: Stazione Meteo WiFi
-- Progetto 2: Smart Home Automation
-- Progetto 3: Sistema di Logging e Monitoraggio
+| Modulo | Argomento | Contenuto |
+|--------|-----------|-----------|
+| [01 - Fondamenti Teoria](./01_Fondamenti_Teoria/README.md) | Ripasso C/C++ applicato ad Arduino | Tipi, variabili, funzioni, puntatori |
+| [02 - Setup Ambiente](./02_Setup_Ambiente/README.md) | IDE, board, primo sketch | LED blink con funzioni custom |
+| [03 - Concetti Base Pratica](./03_Concetti_Base_Pratica/README.md) | GPIO e I/O digitale | LED + pulsante con debouncing |
+| [04 - Sensori e Attuatori](./04_Sensori_e_Attuatori/README.md) | ADC, sensori analogici | Lettura sensore con media mobile |
+| [05 - Progetti Integrati](./05_Progetti_Integrati/README.md) | Comunicazione Serial strutturata | Protocollo bidirezionale |
 
 ---
 
-## 🛠️ Setup
+## 🛠️ Hardware Richiesto
 
-**Hardware:**
-- Arduino Uno R4 WiFi
-- Arduino IDE 2.x (o Platform IO)
-- Librerie necessarie (aggiungeremo per puntata)
-
-**Linguaggio:** C/C++ (Arduino dialect)
-
----
-
-## 📖 Come usare questo corso
-
-Ogni puntata contiene:
-- 📝 Spiegazione teorica
-- 💻 Codice d'esempio completo
-- 🎯 Esercizi pratici
-- 🔗 Riferimenti e approfondimenti
+- **Arduino Uno R4 WiFi**
+- Cavo USB-C
+- Breadboard
+- LED, resistenze (220Ω, 10kΩ)
+- Pulsante (push button)
+- Sensore analogico (es. NTC 10kΩ o fotoresistenza)
+- Cavi jumper
 
 ---
 
-**Vai alla Puntata 1 →** [Principi di Design e Modularità](./fase_1_architettura/puntata_1/README.md)
+## 🎯 Come Usare il Corso
+
+1. Segui i moduli in ordine
+2. Leggi il **README** di ogni puntata per la teoria
+3. Apri il **listato** nella cartella `listati/`
+4. Carica il codice su Arduino e sperimenta
+5. Prova gli **esercizi** alla fine di ogni README
+
+---
+
+## 📝 Convenzioni del Codice
+
+- **Linguaggio:** C++ (Arduino framework)
+- **Commenti:** in italiano
+- **Nomi variabili/funzioni:** in inglese (camelCase)
+- **Costanti:** MAIUSCOLO_CON_UNDERSCORE
+- **Ogni listato è autonomo e testabile**
+
+---
+
+*Corso aggiornato progressivamente — nuove puntate aggiunte via via.*
